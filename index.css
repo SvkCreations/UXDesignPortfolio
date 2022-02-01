@@ -1,0 +1,117 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+.nav-link{
+    color:#0a0a14;
+}
+.nav-link:hover{
+    color:#de0f66;
+    transition-duration: .3s;
+}
+#caseStudy1{
+    height: 700px;
+    background-image: url('Images/Case-1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#caseStudy2{
+    height: 700px;
+    background-image: url('Images/Case-2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.mail-link{
+    color: #de0f66;
+    text-decoration: none;
+}
+.mail-link:hover{
+    color: #de0fd4;
+}
+
+
+/* project1 */
+
+
+
+.hero{
+    height: 500px;
+    background-image: url('Images/Project-1-hero.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.challenges{
+    list-style-type:decimal;
+}
+
+.start-process{
+    background-color: rgb(241, 241, 241);
+}
+.persona{
+    background-color: rgb(241, 241, 241);
+}
+
+.start{
+    height: 800px;
+    background-image: url('Images/Start-the-process.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digital-wireframe{
+    background-color: rgb(241, 241, 241);
+}
+
+.hi-fi{
+    background-color: #e5e5e5;
+}
+.upi{
+    background-color: rgb(241, 241, 241);
+}
+.deck{
+    border: 2px solid #FF9B07;
+}
+.deck:hover{
+    background-color: #FF9B07;
+    transition-duration: .2s;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+
+@media only screen and (max-width: 600px) {
+    .project1-navbar{
+        display:none;
+    }
+    #caseStudy1, #caseStudy2 {
+        height: 400px;
+    }
+    .me{
+        text-align: center;
+    }
+    .hero{
+        height: 200px;
+    }
+    .start{
+        height: 200px;
+    }
+    .hero{
+        height:100px;
+    background-image: url('Images/Project-1-hero.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    }
+    #myBtn{
+        right: 0px;
+    }
+  }
